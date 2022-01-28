@@ -1,0 +1,65 @@
+Meta data - data about data. <meta> tag is used to convey data to browsers that isn't
+displayed to users. Can describe pages, provide keywords, and vategorize type of information
+in content on page. ex. <meta name=author" content="Lee Child"> tells search engine name
+of author. Name states content and content is telling the name of that author.
+
+<head> element is container for metadata pertaining to html doc itself. should be placed 
+between opening <html> tag and opening <body> tag. Head can contain titles, scripts, attachments
+(css, java, etc) character encoding, metadata
+
+<body></body> makes up most of the content. contains
+
+heading elements allow placement of heads of sections. Broken down into series of graduated
+sizes <h1> - <h6> 1 being largest 6 being smallest
+
+A footer (<footer>) element typically contains: authorship information, terms and conditions, copyright 
+information, contact information and links to a company’s social media accounts. 
+The bottom of most websites is the footer.
+
+<main> element represents most important content of the body. pertains to content that is 
+directly related to or expands upon the central topic of a document. should only be 1
+main element per html page.
+
+attribute is a word or phrase used inside an element's tag that controls its behavior.
+for example, <img> allows you to place images inside webpage. the src attribute (written 
+<img src=""> is used to specify the image.
+
+id is an attribute specific to names. <p id="paragraph">This is some text.</p> allows us 
+to reference it in our code later.
+
+class is another attribute. one of the most popular. similar to id tag, but a bit different.
+used to assign a category to 1 or more elements. can be used when all attributed elements
+are related to a certain function or idea on page.
+
+<a> element is code to create link to another page. instructs browser to display content
+from another page. Anchor text is the clickable text that is displayed. by default, 
+unvisited links are blue, visited are purple, and actiive are red.
+anchor element needs an antribute called href attribute. short for hypertext reference.
+for example <a href="">check out this link</a> would display link with text check out this link
+
+code should be organized by file and folder. code directory should contain code/html, code/style,
+code/java, etc.
+
+href attributes come in two types - explicit and implicit. implicit are used to create 
+link to another webpage that is located in same folder as the page the <a> tag is in. 
+Explicit links to files not contained in folder, typically external websites/links.
+
+<nav> tag definds set of navigation links. Typically included on nav bars (rectangular strip
+that include links to the main pages of a website) 
+<nav>
+	<a href=""></a>
+	<a href=""></a>
+	<a href=""></a>
+</nav>
+
+would make a stip with 3 links.
+
+HTML blockquote element <blockquote> indicates that enclosed text is an extended quotation. 
+URL for the source of quote can be given with cite attribute (<blockquote cite=""><p></p></blockquote>
+
+<iframe> represents nested browsing context, embedding another html page into current. src 
+attribute can be used to link to video url. width and height can be used to specify dimensions.
+(<iframe width="in pixils" height="" src=""</iframe> 
+
+you can add autoplay=1 to make video autoplay, and mute=1 after to let it autoplay muted. loop=1 lets
+video loop forever. controls=0 hides the controls in video player.
