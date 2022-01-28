@@ -12,5 +12,5 @@
 <header><br><br>
 <body><main>Thanks for visiting my website. I'm new to coding, and as I get more experience I would like to create a log of my progress. 
 I hope you enjoy your visit :)</main></body>
-<footer>For any questions, reach out to me at shiv.patel0625@gmail.com</footer></center>
+<footer><div id="footer">For any questions, reach out to me at shiv.patel0625@gmail.com</div></footer></center>
 </html>
