@@ -71,3 +71,14 @@ if creator wants to make it so content can change dynamically, or based on user 
 can utilie ajax. instead of requesting entire webpage be recreated, creator can just make the 
 new content is all that is requested from server. Way it works is that user creates an
 'asyncronous 'request'' for just a specific section of the webpage.
+
+xhr stands for xml http request
+xhr is a set of apis that can be used by scripting languages. it is used to transfer xml, etc data to and from
+web server using http. xhr works by making a communication path between client side and server side. 
+
+<script> is used to define javascript script. object is something w state and behavior. method
+is something an object can do. alert is a javascript method that displays an alert box w ok button.
+<html><scripts>aler("hello,world");</script></html>
+
+common practice to seperate html and javascript files (save as .html or .js) and link to external
+files within the code itself. <script src="hello_world.js></script>
