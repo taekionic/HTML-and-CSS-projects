@@ -82,3 +82,37 @@ is something an object can do. alert is a javascript method that displays an ale
 
 common practice to seperate html and javascript files (save as .html or .js) and link to external
 files within the code itself. <script src="hello_world.js></script>
+
+document.getElementById returns an element. <h1 id="header_1>this is my heading</h1> we have 
+assigned the h1 element the Header_1 ID. document.getElementById("header_1").innerHTML will return the element
+and innerHTML will perserve the markup language within the Element. Used to control or get information
+from an element within the code. returns null if element not found
+
+In a set of data that is organized into a hierarchical (based on rank) structure, a node is any individual element 
+in that structure.
+
+read-eval-print-loop REPL. Simple computer programming environment that allows devs to write code
+and see a near immediate result
+
+Font element can be used to choose font attributes, such as color, type, and size. To specify
+color, for example, you can use <font color="">text</font> "" can contain the COLOR, or its hexadecimal value
+
+<b> makes text bold
+<i> italicizes text
+<u> underline
+<strong> emphasizes text, typially auto bolds
+
+<style> can define style information for an HTML doc.
+
+<style>
+p {color:red;} #color can be any rgb code written as rbg(x,y,z)
+</style>
+</p>
+
+<div> defines a division or section in html doc. often used as a container for other html elements
+to style them or make a specific change to the content within that partivular div tag.
+
+java-----
+
+method - performs function ON the object
+document.getElementById returns an element
