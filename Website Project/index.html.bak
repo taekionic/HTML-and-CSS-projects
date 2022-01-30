@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>The Space Station | Resort</title>
+	</head>
+	<body>
+	
+		<!--Nav -->
+		<div>
+			<div>
+				<ul>
+					<a href="#home" id="link"><li>Home</li></a>
+					<a href="#gallery" id="link"><li>Gallery</li></a>
+					<a href="#contact" id="link"><li>Reservations</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- End Nav -->
+		
+		<!-- Home -->
+		<div id="home">
+			<div>
+				<span>The Sapce Station</span>
+			</div>
+		</div>
+		<!-- End Home -->
+		
+		<!-- Gallery -->
+		<section>
+			<div id="gallery">
+				<h1>Gallery</h1>
+				<div>
+				
+					<!--Photo Container 1 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_1.jpg" alt="">
+							<div>
+								<h3>Click here to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today
+							</div>
+						</div>
+					</div>
+					<!-- End Photo-Container 1 -->
+					
+					<!--Photo Container 2 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_2.jpg" alt="">
+							<div>
+								<h3>Click here to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today
+							</div>
+						</div>
+					</div>
+					<!-- End Photo-Container 2 -->
+					
+					<!--Photo Container 3 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_3.jpg" alt="">
+							<div>
+								<h3>Click here to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today
+							</div>
+						</div>
+					</div>
+					<!-- End Photo-Container 3 -->
+					
+					<!--Photo Container 4 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_4.jpg" alt="">
+							<div>
+								<h3>Click here to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today
+							</div>
+						</div>
+					</div>
+					<!-- End Photo-Container 4 -->
+					
+					<!--Photo Container 5 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_5.png" alt="">
+							<div>
+								<h3>Click here to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today
+							</div>
+						</div>
+					</div>
+					<!-- End Photo-Container 5 -->
+					
+					<!--Photo Container 6 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_6.jpg" alt="">
+							<div>
+								<h3>Click here to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today
+							</div>
+						</div>
+					</div>
+					<!-- End Photo-Container 6 -->
+					
+					<!--Photo Container 7 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_7.jpg" alt="">
+							<div>
+								<h3>Click here to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today
+							</div>
+						</div>
+					</div>
+					<!-- End Photo-Container 7 -->
+					
+					<!--Photo Container 8 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_8.jpg" alt="">
+							<div>
+								<h3>Click here to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today
+							</div>
+						</div>
+					</div>
+					<!-- End Photo-Container 8 -->
+					
+					<!--Photo Container 9 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_9.jpg" alt="">
+							<div>
+								<h3>Click here to Enlarge</h3>
+								<p>We have several space launches departing daily, book your flight today
+							</div>
+						</div>
+					</div>
+					<!-- End Photo-Container 9 -->
+				
+					
+				</div>
+			</div>
+		</section>
+		<!-- Gallery -->
+		
+		<!--RSVP -->
+		<section>
+			<div id="contact">
+				<div>
+					<h1>Reservations</h1>
+					<div>
+						<h2><span>Your adventure is just around the moon.</span>
+							<br />Reserve your flight today!
+						</h2>
+						<p>
+							Please provide us with your basic contact information.
+						</p>
+						<div>
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last name"
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--END RSVP -->
+		
+		<!-- Footer -->
+		<div>
+			www.thespacestation.space &nbsp;|&nbsp; &copy; 2022
+		</div>
+		<!-- end footer -->
+	</body>
+</html>
