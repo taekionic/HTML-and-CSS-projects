@@ -1,0 +1,28 @@
+body {
+	font-style: italic;
+	text-align: center;
+}
+.Class_A {
+	color:blue;
+	text-shadow: 2px 2px #000000;
+	background-color: red;
+	color: white;
+	font-size: 30px;
+	font-weight: bolder;
+}
+.font_1 {
+	background-color: black;
+	color: yellow;
+	font-size: large;
+}
+.font_2 {
+	background-color: darkblue;
+	color: white;
+	font-size: medium;
+}
+.My_Style {
+	background-color: red;
+	color: white;
+	font-size: 30px;
+	font-weight: bolder;
+}

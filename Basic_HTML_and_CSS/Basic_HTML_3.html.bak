@@ -3,22 +3,21 @@
 	<head>
 		<title>Welcome to my test!</title>
 	</head>
-	<style>
-		div{color:red;
-		}
-		u{color:blue;
-		}
-	</style>
+	<link rel="stylesheets" type="text/css" href="My_CSS_Style.css">
+	</link>
 	<body>
 		<center>
 		<h1>Let's see what the div and style texts can do!</h1>
 		<p> Above, the style tag, defined earlier, was used to globally assign
-			the div tag the color red. 
+			the div tag the color red, and the u tag the color blue.
 		</p>
-		<div>This section uses almost the exact same code as above. </div>
-		<p> The only difference is that here, div was used instead of h1.
+		<div>
+		<p>What this allows me to do is this:
+		</div>
+		instead of seperately tagging each item,
+		I can define this paragraph such that <u>this is blue</u> but everything else
+		is red. 
 		</p>
-		
 		</center>
 	</body>
 </html>

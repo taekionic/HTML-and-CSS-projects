@@ -1,0 +1,7 @@
+body {
+	font-style: italic;
+	text-allign: center;
+}
+.Class_A {
+	color:blue;
+}
