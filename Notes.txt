@@ -112,6 +112,63 @@ p {color:red;} #color can be any rgb code written as rbg(x,y,z)
 <div> defines a division or section in html doc. often used as a container for other html elements
 to style them or make a specific change to the content within that partivular div tag.
 
+<link> can be used to defin a link between a doc and external resource. common to use to link to a
+style sheet.
+<link rel="stylesheets" type="text/css" href"">
+rel is short for relationship. attribute that specifies relationship between two docs. "stylesheet" 
+is a common value used to follow rel. this imports the specified stylesheet.
+type is an attribute that tells browser what kind of resource. for example, if audeo, then type=audio.
+when linking css files, text/css is used. 
+href is simply hypertext reference. specifies links address.
+
+HTML comments begin with <!-- and close with -->
+
+in CSS, to comment, you type /* and close with */
+
+<ol> used for ordered list. each item within this element is contained within the list element <li>
+<ul> is used for unordered list. typically bullet pointed as opposed to sequenced (1234etc) for ol. 
+also each element contained within li.
+
+<span> connects inline (code contained within webpage and not externally linked) 
+<section> designates sections in a doc such as headers, footers, chapters, or any other section.
+
+<section>
+	<h1>Cats</h1>
+		<p><span...></span><br>(break)</p>
+</section>
+
+<form> tag is used to create a form thhat allows users to input data. Typical way to write
+<form action="" method="post">
+<input> specifies a field where user can enter data. 
+
+<form action="" method="get">
+	First name: <input type="text" name="First_Name><br>
+	Last name: <input type'"text" name=Last_name><br>
+	Email: <input type="email" name="email"><br>
+	Password: <input type'"password" name="password"><br>
+	<input type="submit" value="submit">
+</form>
+
+type attribute specifies type of user input (checkbox, password, text, etc.) 
+name element defines name of the input block. 
+Value element specifies value of an input. if you use a button, value is text on button.
+
+target attribute target="new" can open page in new tab. _blank can be used isntead of new
+
+<em></em> emphasizes text
+
+<article> tag represents self contained composition in a doc intended to be independantly distrubutable.
+<detail> is used for content which is initially hidden but can be displayed if user wishes to see it
+<summary> tag is used to define a summary for <details>
+
+<details>
+	<summary></summary>
+	<p></p>
+</details>
+
+
+
+
 java-----
 
 method - performs function ON the object
