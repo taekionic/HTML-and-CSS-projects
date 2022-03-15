@@ -1,9 +1,0 @@
-div h1 {
-	text-align:center;
-	background-color:blue;
-}
-
-section h2,p {
-	background-attachment:url{homebg.jpg};
-	z-index:4;
-}

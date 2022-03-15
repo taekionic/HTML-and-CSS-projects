@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <!-- project reqs. 
-	A. Home page section 
-	B. Picture section
-	C. Contact Form
+	A. Home page section y
+	B. Picture section 
+	C. Contact Form y
 	D. Video section
 	E. Footer
-	F. Nav bar w bookmarks
+	F. Nav bar w bookmarks y
 -->
 <html lang="en">
 <link rel="stylesheet" type="text/css" href="style1.css">
@@ -21,7 +21,7 @@
 			<div class="navbar">
 				<nav class="#indicator">
 					<div>
-						<ul>
+						<ul class="ul">
 							<a href="#home" class="#indicator">Home&nbsp;&nbsp;<span> |</span></a>
 							<a href="#portfolio" class="#indicator">Portfolio&nbsp;&nbsp;<span> |</span></a>
 							<a href="#contact" class="#indicator ">Contact Me&nbsp;&nbsp;<span> |</span></a>
@@ -29,52 +29,61 @@
 						</ul>
 						
 					</div>
-				</nav>	
-						
+				</nav>			
 			</div>
 			<!-- End Nav -->
-		<!-- Home -->
 			<div class="wrapper">
-				<div class="sectionwrapper">
+				<!-- Home -->
+				<div>
 					<section>
 						<h2>
-							Hello!
+							Hello!<br />
+							Welcome to my first website.<br /> Here, I'd like to document
+							my coding journey as I work towards becoming a software<br />
+							developer. <br />Thank you for joining me!
 						</h2>
-						<p class="bodywrapper">
-							Welcome to my first website. Here I'd like to document
-							my coding journey as I work towards becoming a software
-							developer. Thank you for joining me!
-						</p>
 					</section>
-				
+
 				</div>
 				<!-- End Home -->
-				
 				<!-- Pictures, Videos, and Code -->
 				<div id=portfolio>
-					<!-- Pictures -->
+					<!-- Pictures and Videos -->
 					<div id=pictures>
-					<img></img>
-					<p>Inspire to discover something greater.</p>
+						<header>Photos and Videos</header>
+						<div class="list">
+							<div class="photosvideos">
+								Photos
+							</div>
+							<div class="photos">
+								<a class="photoitem" target="_blank" href="https://parispeaceforum.org/wp-content/uploads/2021/10/NET-ZERO-SPACE-INITIATIVE-1.png"><img src="https://parispeaceforum.org/wp-content/uploads/2021/10/NET-ZERO-SPACE-INITIATIVE-1.png" alt="Sorry!"></a>
+								<a class="photoitem" target="_blank" href="https://www.studioroosegaarde.net/data/images/2018/06/1610/129544/spacewastedaannew2.jpg"><img src="https://www.studioroosegaarde.net/data/images/2018/06/1610/129544/spacewastedaannew2.jpg" alt="Sorry!"></a>
+								<a class="photoitem" target="_blank" href="https://www.gtai.de/resource/image/76892/16x9/1024/576/73c41c5925608f492477e7c5c997ddc9/RK/aerospace-industry.jpg"><img src="https://www.gtai.de/resource/image/76892/16x9/1024/576/73c41c5925608f492477e7c5c997ddc9/RK/aerospace-industry.jpg" alt="Sorry!"></a>
+								<a class="photoitem" target="_blank" href="https://designscad.com/wp-content/uploads/2016/11/tupelevtu334midrangeairliner_58554.gif"><img src="https://designscad.com/wp-content/uploads/2016/11/tupelevtu334midrangeairliner_58554.gif" alt="Sorry!"></a>
+							</div>
+							<div class="photosvideos">
+								Videos
+							</div>
+							<div class="video">
+								<a><iframe width="315.72" height="217.64" src="https://www.youtube.com/embed/7KXGZAEWzn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
+								<iframe width="315.72" height="217.64" src="https://www.youtube.com/embed/wupToqz1e2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<a></a>
+							</div>
+							<div></div>
+						</div>
 					</div>
-					<!-- End Pictures -->
-					
-					<!-- Videos -->
-					<div id=videos>
-					</div>
-					<!-- End Videos -->
-					
-					<!-- Code -->
-					<div id=code>
-					</div>
-					<!-- End Code -->
 				</div>
-				<!-- End Pictures -->
 				
+				<!-- End Pictures -->
+				<!-- Code -->
+				<div id=code>
+				</div>
+				<!-- End Code -->
 				<!-- Contact Form -->
-				<div id=contact>
+				<div id=contact class="wrapper">
 					<h2>Contact me!</h2>
-						<p>If you have any questions or check in, feel free to contact me!<p><br>
+					<p>If you have any questions or check in, feel free to contact me!<p>
+						<br>
 						<form action="mailto:shiv.patel0625@gmail.com" method="get">
 							<label>First name:</label> <input type="text" name="First_Name"><br><br>
 							<label>Last name:</label> <input type="text" name="Last Name"><br><br>
@@ -83,10 +92,10 @@
 							<center><input type="submit" value="submit"><br><br></center>
 				</div>
 				<!-- End Contact Form -->
-				
 			</div>
 		</div>
 	</body>
 	<footer>
+		<p>&copy; Shiv Patel 2022</p>
 	</footer>
 </html>
