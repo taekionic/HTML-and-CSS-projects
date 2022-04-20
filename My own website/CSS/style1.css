@@ -301,6 +301,7 @@ input[type="text"] {
     width:200px;
 	height:20px;
 	border-radius:3px;
+	border: 2px black solid;
 	background-color: lightblue;
 	margin-left:2px;
 	position:relative;
